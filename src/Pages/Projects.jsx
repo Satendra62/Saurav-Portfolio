@@ -11,7 +11,7 @@ const projects = [
     image: `${ReactProject}`,
   },
   {
-    title: "A Counter Application",
+    title: "SRK Solution : A complete solution of vehicles related to insurance, registration, challans etc.",
     category: "Web Design",
     image: `${ReactProject2}`,
   },

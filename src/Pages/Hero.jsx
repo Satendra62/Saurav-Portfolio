@@ -4,7 +4,7 @@ import Myprofile from '../assets/MyProfile1.png';
 
 
 const Hero = () => {
-  const texts = ["Satendra", "Programmer"];
+  const texts = ["Saurav Ranjan", "Programmer"];
   const [displayText, setDisplayText] = useState("");
   const [charIndex, setCharIndex] = useState(0);
   const [isForward, setIsForward] = useState(true);
@@ -57,7 +57,7 @@ const Hero = () => {
           </h1>
           <p className="text-gray-600 dark:text-gray-300 text-base max-w-xl mx-auto md:mx-0">
 
-            I'm a passionate web developer and BCA student focused on mastering full stack development with Java and C#. I love creating impactful, user-friendly digital solutions.
+            I'm a passionate web developer and MCA student focused on mastering full stack development with Java. I love creating impactful, user-friendly digital solutions.
 
 
           </p>
@@ -67,7 +67,7 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start space-x-6 pt-6 text-3xl">
-            <a href="https://www.linkedin.com/in/satendra-kumar-36a427220/" className="text-black dark:text-white hover:text-blue-800 hover:bg-white">
+            <a href="https://www.linkedin.com/in/saurav-ranjan-91b25b1bb/" className="text-black dark:text-white hover:text-blue-800 hover:bg-white">
               <FaLinkedin />
             </a>
             <a href="https://x.com/SatendraKu72361?" className="text-black dark:text-white hover:text-black hover:bg-white">
@@ -76,7 +76,7 @@ const Hero = () => {
             <a href="https://www.instagram.com/satendra0.1?igsh=MTVoemNoc3ptMHc2" className="text-black dark:text-white hover:text-red-700 hover:bg-black">
               <FaSquareInstagram />
             </a>
-            <a href="https://github.com/Satendra62" className="text-black dark:text-white hover:text-black hover:bg-white">
+            <a href="https://github.com/DzSaurav" className="text-black dark:text-white hover:text-black hover:bg-white">
               <FaSquareGithub />
             </a>
           </div>

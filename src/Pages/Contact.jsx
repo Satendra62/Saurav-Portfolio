@@ -37,7 +37,7 @@ const Contact = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
-          alert('Failed to send message. Please try again.');
+          alert('We are facing some issue please try after sometime.');
         }
       );
   };

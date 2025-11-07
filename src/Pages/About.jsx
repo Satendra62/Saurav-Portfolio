@@ -1,5 +1,5 @@
 import React from 'react';
-import Myprofile from '../assets/AboutProfile.png'; 
+//import Myprofile from '../assets/AboutProfile.png'; 
 
 const About = () => {
 
@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div id='About'>
       <section className="flex flex-col md:flex-row items-center justify-center px-8 py-10 pb-20 bg-white font-[Poppins] z-0">
-        {/* Image Section */}
+        {/* Image Section
         <div className="relative mb-10 md:mb-0 md:mr-10">
           <img
             src={Myprofile}
@@ -31,7 +31,7 @@ const About = () => {
               zIndex: -1,
             }}
           ></div>
-        </div>
+        </div> */}
 
         {/* Text Section */}
         <div className="max-w-xl text-center md:text-left">
@@ -40,7 +40,7 @@ const About = () => {
           </h2>
 
           <p className="text-gray-700 text-lg mb-4">
-            Hello! I'm <strong>Satendra Kumar</strong>, a passionate Full Stack Developer and BCA student. I love building real-world projects using <span className="text-orange-500">Java</span> and <span className="text-orange-500">C#</span>, while exploring the entire web development stack.
+            Hello! I'm <strong>Saurav Ranjan</strong>, a passionate Full Stack Developer and MCA student. I love building real-world projects using <span className="text-orange-500">Java</span> and <span className="text-orange-500">Spring Boot</span>, while exploring the entire web development stack.
           </p>
 
           <p className="text-gray-700 text-base mb-6">

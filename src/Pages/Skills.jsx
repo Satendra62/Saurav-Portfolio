@@ -1,13 +1,13 @@
 import React from 'react';
 
 const skills = [
-  "HTML","CSS", "Tailwind", "JavaScript","React","Java","C#",  
+  "HTML","CSS", "Tailwind", "JavaScript","React","Java","Spring Boot",  
    "Database",
-  "Communication", "Git", "Github", "canva",
+  "Communication", "Git", "Github", "Canva",
 ];
 
 const Skills = () => {
-  return (
+  return ( <div id='Skills'>
     <section className="bg-gray-900 text-white py-20 px-8 font-[Poppins]">
       <h2 className="text-center text-5xl font-bold mb-16">
         My<span className="text-orange-500">Skills</span>
@@ -24,6 +24,7 @@ const Skills = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 
