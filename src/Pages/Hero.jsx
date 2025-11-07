@@ -70,10 +70,8 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/saurav-ranjan-91b25b1bb/" className="text-black dark:text-white hover:text-blue-800 hover:bg-white">
               <FaLinkedin />
             </a>
-            <a href="https://x.com/SatendraKu72361?" className="text-black dark:text-white hover:text-black hover:bg-white">
-              <FaXTwitter />
-            </a>
-            <a href="https://www.instagram.com/satendra0.1?igsh=MTVoemNoc3ptMHc2" className="text-black dark:text-white hover:text-red-700 hover:bg-black">
+            
+            <a href="https://www.instagram.com/saurav.ranjan?igsh=MTg0YWl6aXJpOTdhcA==" className="text-black dark:text-white hover:text-red-700 hover:bg-black">
               <FaSquareInstagram />
             </a>
             <a href="https://github.com/DzSaurav" className="text-black dark:text-white hover:text-black hover:bg-white">
