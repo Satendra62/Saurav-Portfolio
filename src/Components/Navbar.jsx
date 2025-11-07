@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="absolute top-20 left-0 w-full bg-white shadow-md md:hidden z-50">
           <ul className="flex flex-col items-center space-y-4 py-4 text-gray-800 font-medium">
             <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('hero')}>Home</li>
-            <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('About')}>About Me</li>
+            <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('About')}>About Us</li>
             <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('Services')}>Services</li>
             <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('Project')}>Projects</li>
             <li className="hover:text-orange-500 cursor-pointer" onClick={() => smoothScroll('Contact')}>Contact</li>
